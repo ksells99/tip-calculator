@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mt-4 font-weight-bold"><i class="fas fa-coins mr-2"></i>
+                    Tip Calculator</h1>
+                <p class="text-center mt-4">A simple tip calculator created with vanilla Javascript. Tip will calculate dynamically when input values change.</p>
+                
+                <div class="input">
+                    <form>
+                        <div class="form-group form-control mt-4">
+                            
+                            <div class="input-container justify-content-center mt-4">
+                                <i class="fas fa-pound-sign icon"></i>
+                                <input id="bill-total" class="input-field mb-3" type="number" placeholder="Bill total" step="0.01">
+                            </div>
+
+                            <div class="input-container justify-content-center mt-3">
+                                <i class="fas fa-percentage icon"></i>
+                                <input id="tip-percent" class="input-field mb-3" type="number" placeholder="Tip percentage" step="0.5">
+                            </div>
+
+                            <div class="input-container justify-content-center mt-3">
+                                <i class="fas fa-user icon"></i>
+                                <input id="no-of-people" class="input-field mb-3" type="number" placeholder="Number of people (optional)">
+                            </div>
+                            
+
+                            
+
+                            
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="output card card-body mb-2">
+                    <div class="total-tip">
+                        <div class="tip-amount-header">
+                            <h1 class="display-5 text-center">Tip Amount</h1>
+                        </div>
+                        
+                        <div class="total-tip-amount text-center">
+                        </div>
+                        <div class="tip-per-person text-center">
+                        </div>
+                    </div>
+
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/c159863e43.js" crossorigin="anonymous"></script>
+</body>
+</html>

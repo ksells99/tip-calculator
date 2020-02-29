@@ -1,4 +1,7 @@
 # Tip Calculator
+
+https://ksells99.github.io/tip-calculator/
+
 A simple tip calculator created using vanilla JS, with styling from Bootstrap.
 
 Tip value will update dynamically whenever any of the input fields change - results are rounded to 2dp. The 'number of people' field is optional.
